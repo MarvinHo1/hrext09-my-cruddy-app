@@ -6,16 +6,65 @@
   <script
           src="https://code.jquery.com/jquery-3.3.1.js"
           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-          crossorigin="anonymous"></script>
+          crossorigin="anonymous">          
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+
   <form>
     <input id="keyInput" type="text" placeholder="key"></input>
     <input id="valueInput" type="text" placeholder="value"></input>
     <button id="createButton" type='submit'>Create</button>
     <button id="updateButton" type='submit'>Update</button>
   </form>
-  <script src='app/app.js'></script>
+
+
+
+<div class="wrapper">
+<div class="container1">
+   <div class="consumer">
+    <button id="diet-content" type='button'>diets</button>
+      <ul>
+        <li>Keto</li>
+        <li>Vegetarian</li>
+        <li>Weight Watchers</li>
+      </ul>
+   </div>
+</div>
+
+
+<div class="container2">
+   <div class="area">
+     <button id="fastfood" type='button'>Restuarants</button>
+       <ul>
+        <li>McDonald</li>
+        <li>Chic Fil A</li>
+        <li>Chipotle</li>
+        <li>In n Out</li>
+        <li>Wendy's</li>
+      </ul>
+   </div>
+</div>
+
+<div class="container3">
+   <div class="food">
+    <button id="fastfood" type='button'>Menu Items</button>
+      <ul>
+        <li>Burgers</li>
+        <li>Salad</li>
+        <li>Drinks</li>
+        <li>Strips</li>
+        <li>Special ways to Order</li>
+      </ul>
+   </div>
+</div>
+</div>  
+
+
+  <script src="app/app.js"></script>
 </body>
 </html>
+

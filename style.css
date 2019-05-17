@@ -1,0 +1,32 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.container1{
+width: 500px;
+height: 500px;
+border: 1px solid black;
+}
+
+
+.container2{
+width: 500px;
+height: 500px;
+border: 1px solid black;
+}
+
+.container3{
+width: 500px;
+height: 500px;
+border: 1px solid black;
+}
+
+
+.btn{
+	width: 20px;
+	height: 20px;
+}
+
