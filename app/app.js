@@ -68,4 +68,9 @@ $(document).ready(function() {
       //current key doesnt exist, do stuff
     }
   });
+
+  $('#clearButton').click(function(event){
+  return window.localStorage.clear();
+  })
+  
 });
