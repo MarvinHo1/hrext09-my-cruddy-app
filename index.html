@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HREXT09 R00lz!</title>
+  <title>My Cruddy App...</title>
   <script
           src="https://code.jquery.com/jquery-3.3.1.js"
           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -14,58 +14,78 @@
 <body>
 
 
-  <form>
+<div class = "cover">
+<h1> Food App </h1>
+<div class="split left">
+  <h2> Notes</h2>
+<form class="form">
+  <input  id="notes" type="text" placeholder="New Notes">
+  <button type="submit">Add Note</button>
+  <button id="clearBtn" type="button">Clear All</button>
+</form>
+<ul id="list"></ul>
+</div>
+</div>
+<div class="wrapper">
+<div class="container1">
+   <div class="consumer">
+    <div id="styled-select">   
+      <select id="diet-types">
+        <option  >Diet Choice</option>
+        <option value="Keto">Keto</option>
+        <option value="Vegetarian">Vegetarian</option>
+        <option value="Weight Watchers">Weight Watchers</option>
+        <option value="Vegan">Vegan</option>
+      </select>   
+    </div> 
+
+   </div>
+</div>
+<div class="container2">
+   <div class="area">
+      <div id="styled-select">   
+        <select id="places">
+          <option value="placeholder">Resturant</option>
+          <option value="McD">McDonald</option>
+          <option value="BK">Burger King</option>
+          <option value="C_Jr">Carles Jr</option>
+          <option value="Wings">Buffalo WildWings</option>
+        </select>   
+      </div> 
+   </div>
+</div>
+</div>  
+<div class="wrapper2">
+<div class="container3">
+  <h2>Menu Items</h2>
+   <div class="food">
+      <div id="menu-container">   
+        <div id="menu-item">
+          <table id="add-menu" style="width:100%">
+            <tr>
+              <th>Menu Item</th>
+              <th>Calories</th>
+              <th>Carbs</th>
+              <th>Protein</th>
+              <th>Sugar</th>
+            </tr>
+          </table>
+        </div> 
+      </div> 
+      <button id="refresh" type="button">Reset</button>
+   </div>
+</div>
+</div>
+  <script src="app/app.js"></script>
+</body>
+</html>
+
+
+<!-- <form>
     <input id="keyInput" type="text" placeholder="key"></input>
     <input id="valueInput" type="text" placeholder="value"></input>
     <button id="createButton" type='submit'>Create</button>
     <button id="updateButton" type='submit'>Update</button>
     <button id="clearButton" type='submit'>Clear</button>
-  </form>
-
-
-
-<div class="wrapper">
-<div class="container1">
-   <div class="consumer">
-    <button id="diet-content" type='button'>diets</button>
-      <ul>
-        <li>Keto</li>
-        <li>Vegetarian</li>
-        <li>Weight Watchers</li>
-      </ul>
-   </div>
-</div>
-
-
-<div class="container2">
-   <div class="area">
-     <button id="fastfood" type='button'>Restuarants</button>
-       <ul>
-        <li>McDonald</li>
-        <li>Chic Fil A</li>
-        <li>Chipotle</li>
-        <li>In n Out</li>
-        <li>Wendy's</li>
-      </ul>
-   </div>
-</div>
-
-<div class="container3">
-   <div class="food">
-    <button id="fastfood" type='button'>Menu Items</button>
-      <ul>
-        <li>Burgers</li>
-        <li>Salad</li>
-        <li>Drinks</li>
-        <li>Strips</li>
-        <li>Special ways to Order</li>
-      </ul>
-   </div>
-</div>
-</div>  
-
-
-  <script src="app/app.js"></script>
-</body>
-</html>
-
+    <button id="removeButton" type='submit'>remove</button>
+  </form> -->
